@@ -80,18 +80,18 @@ F 3 "~" H 7125 6085 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Dissatisfaction65:Adafruit_Feather_32u4_Bluefruit_LE U1
+L lab68:Adafruit_Feather_32u4_Bluefruit_LE U1
 U 1 1 5E0C06C9
 P 1800 2800
 F 0 "U1" H 1800 3825 50  0000 C CNN
 F 1 "Adafruit_Feather_32u4_Bluefruit_LE" H 1800 3725 50  0000 C CNN
-F 2 "Dissatisfaction65:Adafruit_Feather_32u4_Bluefruit_LE" H 1800 2800 50  0001 C CNN
+F 2 "lab68:Adafruit_Feather_32u4_Bluefruit_LE" H 1800 2800 50  0001 C CNN
 F 3 "" H 1800 2800 50  0001 C CNN
 	1    1800 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Dissatisfaction65:74HC4515 U2
+L lab68:74HC4515 U2
 U 1 1 5E0C39FD
 P 1425 6350
 F 0 "U2" H 1425 7531 50  0000 C CNN
@@ -102,12 +102,12 @@ F 3 "" H 1425 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Dissatisfaction65:SSD1306_I2C U3
+L lab68:SSD1306_I2C U3
 U 1 1 5E0CF7E7
 P 9900 5725
 F 0 "U3" H 10278 5721 50  0000 L CNN
 F 1 "SSD1306_I2C" H 10278 5630 50  0000 L CNN
-F 2 "Dissatisfaction65:OLED" H 9900 5975 50  0001 C CNN
+F 2 "lab68:OLED" H 9900 5975 50  0001 C CNN
 F 3 "" H 9900 5975 50  0001 C CNN
 	1    9900 5725
 	1    0    0    -1  

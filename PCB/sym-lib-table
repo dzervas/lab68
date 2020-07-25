@@ -1,5 +1,5 @@
 (sym_lib_table
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/MX_Only.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
-  (lib (name Dissatisfaction65)(type Legacy)(uri ${KIPRJMOD}/Dissatisfaction65.lib)(options "")(descr ""))
-  (lib (name Dissatisfaction65-rescue)(type Legacy)(uri ${KIPRJMOD}/Dissatisfaction65-rescue.lib)(options "")(descr ""))
+  (lib (name lab68)(type Legacy)(uri ${KIPRJMOD}/lab68.lib)(options "")(descr ""))
+  (lib (name lab68-rescue)(type Legacy)(uri ${KIPRJMOD}/lab68-rescue.lib)(options "")(descr ""))
 )
