@@ -1837,9 +1837,9 @@ ROW1
 NoConn ~ 2350 2105
 Text Notes 1125 905  0    118  ~ 0
 Microcontroller
-Text GLabel 1200 2305 0    50   Input ~ 0
-ENC_2
 Text GLabel 1200 2405 0    50   Input ~ 0
+ENC_2
+Text GLabel 1200 2305 0    50   Input ~ 0
 ENC_1
 Text GLabel 2350 2705 2    50   Input ~ 0
 ROW4
