@@ -25,17 +25,6 @@ F 3 "" H 3700 1475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-LED MX_2
-U 1 1 5E0A7DF2
-P 4825 1500
-F 0 "MX_2" H 4858 1723 60  0000 C CNN
-F 1 "MX-LED" H 4858 1649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 4200 1475 60  0001 C CNN
-F 3 "" H 4200 1475 60  0001 C CNN
-	1    4825 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-LED MX_3
 U 1 1 5E0A94A2
 P 5325 1500
@@ -47,17 +36,6 @@ F 3 "" H 4700 1475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-LED MX_4
-U 1 1 5E0A94A8
-P 5825 1500
-F 0 "MX_4" H 5858 1723 60  0000 C CNN
-F 1 "MX-LED" H 5858 1649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 5200 1475 60  0001 C CNN
-F 3 "" H 5200 1475 60  0001 C CNN
-	1    5825 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Rotary_Encoder_Switch SW1
 U 1 1 5E0A9A1E
 P 7125 5825
@@ -66,17 +44,6 @@ F 1 "Rotary_Encoder_Switch" H 7125 6101 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6975 5985 50  0001 C CNN
 F 3 "~" H 7125 6085 50  0001 C CNN
 	1    7125 5825
-	1    0    0    -1  
-$EndComp
-$Comp
-L lab68:Adafruit_Feather_32u4_Bluefruit_LE U1
-U 1 1 5E0C06C9
-P 1800 2800
-F 0 "U1" H 1800 3825 50  0000 C CNN
-F 1 "Adafruit_Feather_32u4_Bluefruit_LE" H 1800 3725 50  0000 C CNN
-F 2 "lab68:Adafruit_Feather_32u4_Bluefruit_LE" H 1800 2800 50  0001 C CNN
-F 3 "" H 1800 2800 50  0001 C CNN
-	1    1800 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -113,17 +80,6 @@ F 3 "" H 5700 1475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-LED MX_6
-U 1 1 5E0DE3FA
-P 6825 1500
-F 0 "MX_6" H 6858 1723 60  0000 C CNN
-F 1 "MX-LED" H 6858 1649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 6200 1475 60  0001 C CNN
-F 3 "" H 6200 1475 60  0001 C CNN
-	1    6825 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-LED MX_7
 U 1 1 5E0DE400
 P 7325 1500
@@ -146,17 +102,6 @@ F 3 "" H 7200 1475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-LED MX_9
-U 1 1 5E0DE40C
-P 8325 1500
-F 0 "MX_9" H 8358 1723 60  0000 C CNN
-F 1 "MX-LED" H 8358 1649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 7700 1475 60  0001 C CNN
-F 3 "" H 7700 1475 60  0001 C CNN
-	1    8325 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-LED MX_0
 U 1 1 5E0E0D75
 P 8825 1500
@@ -176,17 +121,6 @@ F 1 "MX-LED" H 9358 1649 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1U" H 8700 1475 60  0001 C CNN
 F 3 "" H 8700 1475 60  0001 C CNN
 	1    9325 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-LED MX_=1
-U 1 1 5E0E0D81
-P 9825 1500
-F 0 "MX_=1" H 9858 1723 60  0000 C CNN
-F 1 "MX-LED" H 9858 1649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 9200 1475 60  0001 C CNN
-F 3 "" H 9200 1475 60  0001 C CNN
-	1    9825 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -256,28 +190,6 @@ F 3 "" H 9700 4475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-LED MX_LEFT1
-U 1 1 5E1220B9
-P 9325 4500
-F 0 "MX_LEFT1" H 9358 4723 60  0000 C CNN
-F 1 "MX-LED" H 9358 4649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 8700 4475 60  0001 C CNN
-F 3 "" H 8700 4475 60  0001 C CNN
-	1    9325 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-LED MX_FN1
-U 1 1 5E1220B3
-P 8325 4500
-F 0 "MX_FN1" H 8358 4723 60  0000 C CNN
-F 1 "MX-LED" H 8358 4649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 7700 4475 60  0001 C CNN
-F 3 "" H 7700 4475 60  0001 C CNN
-	1    8325 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-LED MX_RALT1
 U 1 1 5E1220AD
 P 7825 4500
@@ -286,28 +198,6 @@ F 1 "MX-LED" H 7858 4649 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1U" H 7200 4475 60  0001 C CNN
 F 3 "" H 7200 4475 60  0001 C CNN
 	1    7825 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-LED MX_SPC1
-U 1 1 5E11D6FF
-P 6325 4500
-F 0 "MX_SPC1" H 6358 4723 60  0000 C CNN
-F 1 "MX-LED" H 6358 4649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-6.25U-ReversedStabilizers" H 5700 4475 60  0001 C CNN
-F 3 "" H 5700 4475 60  0001 C CNN
-	1    6325 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-LED MX_LALT1
-U 1 1 5E11C353
-P 4825 4500
-F 0 "MX_LALT1" H 4858 4723 60  0000 C CNN
-F 1 "MX-LED" H 4858 4649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U" H 4200 4475 60  0001 C CNN
-F 3 "" H 4200 4475 60  0001 C CNN
-	1    4825 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -410,17 +300,6 @@ F 3 "" H 6200 3725 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-LED MX_B1
-U 1 1 5E1196A0
-P 6325 3750
-F 0 "MX_B1" H 6358 3973 60  0000 C CNN
-F 1 "MX-LED" H 6358 3899 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 5700 3725 60  0001 C CNN
-F 3 "" H 5700 3725 60  0001 C CNN
-	1    6325 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-LED MX_V1
 U 1 1 5E11969A
 P 5825 3750
@@ -451,17 +330,6 @@ F 1 "MX-LED" H 4858 3899 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1U" H 4200 3725 60  0001 C CNN
 F 3 "" H 4200 3725 60  0001 C CNN
 	1    4825 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-LED MX_Z1
-U 1 1 5E119688
-P 4325 3750
-F 0 "MX_Z1" H 4358 3973 60  0000 C CNN
-F 1 "MX-LED" H 4358 3899 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 3700 3725 60  0001 C CNN
-F 3 "" H 3700 3725 60  0001 C CNN
-	1    4325 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -506,28 +374,6 @@ F 1 "MX-LED" H 9358 3149 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1U" H 8700 2975 60  0001 C CNN
 F 3 "" H 8700 2975 60  0001 C CNN
 	1    9325 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-LED MX_;1
-U 1 1 5E1086AF
-P 8825 3000
-F 0 "MX_;1" H 8858 3223 60  0000 C CNN
-F 1 "MX-LED" H 8858 3149 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 8200 2975 60  0001 C CNN
-F 3 "" H 8200 2975 60  0001 C CNN
-	1    8825 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-LED MX_L1
-U 1 1 5E1086A9
-P 8325 3000
-F 0 "MX_L1" H 8358 3223 60  0000 C CNN
-F 1 "MX-LED" H 8358 3149 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 7700 2975 60  0001 C CNN
-F 3 "" H 7700 2975 60  0001 C CNN
-	1    8325 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -685,17 +531,6 @@ F 3 "" H 8200 2225 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-LED MX_O1
-U 1 1 5E0F5ED1
-P 8325 2250
-F 0 "MX_O1" H 8358 2473 60  0000 C CNN
-F 1 "MX-LED" H 8358 2399 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 7700 2225 60  0001 C CNN
-F 3 "" H 7700 2225 60  0001 C CNN
-	1    8325 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-LED MX_I1
 U 1 1 5E0F5ECB
 P 7825 2250
@@ -704,17 +539,6 @@ F 1 "MX-LED" H 7858 2399 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1U" H 7200 2225 60  0001 C CNN
 F 3 "" H 7200 2225 60  0001 C CNN
 	1    7825 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-LED MX_U1
-U 1 1 5E0F5EC5
-P 7325 2250
-F 0 "MX_U1" H 7358 2473 60  0000 C CNN
-F 1 "MX-LED" H 7358 2399 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 6700 2225 60  0001 C CNN
-F 3 "" H 6700 2225 60  0001 C CNN
-	1    7325 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1522,15 +1346,6 @@ F 3 "~" V 10775 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10275 1850 9775 1850
-Connection ~ 4275 1850
-Wire Wire Line
-	4275 1850 3775 1850
-Connection ~ 4775 1850
-Wire Wire Line
-	4775 1850 4275 1850
-Connection ~ 5275 1850
-Wire Wire Line
-	5275 1850 4775 1850
 Connection ~ 5775 1850
 Wire Wire Line
 	5775 1850 5275 1850
@@ -1703,137 +1518,35 @@ Wire Wire Line
 	10275 4850 10775 4850
 Connection ~ 3975 2200
 Connection ~ 3975 2950
-Wire Wire Line
-	3975 2950 3975 3000
 Connection ~ 3975 3700
-Wire Wire Line
-	3975 3700 3975 3750
 Connection ~ 4475 2200
 Connection ~ 4475 2950
-Wire Wire Line
-	4475 2950 4475 2250
-Connection ~ 4475 3700
 Connection ~ 4975 2200
-Wire Wire Line
-	4975 2200 4975 1500
 Connection ~ 4975 2950
 Connection ~ 4975 3700
-Wire Wire Line
-	4975 3700 4975 3000
-Wire Wire Line
-	5475 1450 5475 1500
 Connection ~ 5475 2200
-Wire Wire Line
-	5475 2200 5475 2250
 Connection ~ 5475 2950
-Wire Wire Line
-	5975 3700 5975 3000
 Connection ~ 5975 2200
-Wire Wire Line
-	5975 2200 5975 1500
 Connection ~ 5975 2950
-Wire Wire Line
-	5975 2950 5975 2250
-Wire Wire Line
-	6475 1450 6475 1500
 Connection ~ 6475 2200
 Connection ~ 6475 2950
-Wire Wire Line
-	6475 2950 6475 3000
-Connection ~ 6475 3700
-Wire Wire Line
-	6975 3700 6975 3000
 Connection ~ 6975 2200
-Wire Wire Line
-	6975 2200 6975 1500
 Connection ~ 6975 2950
-Wire Wire Line
-	6975 2950 6975 2250
-Wire Wire Line
-	7475 1450 7475 1500
-Connection ~ 7475 2200
-Wire Wire Line
-	7475 2200 7475 2250
 Connection ~ 7475 2950
-Wire Wire Line
-	7475 2950 7475 3000
-Wire Wire Line
-	7975 3700 7975 3000
 Connection ~ 7975 2200
-Wire Wire Line
-	7975 2200 7975 1500
 Connection ~ 7975 2950
-Wire Wire Line
-	7975 2950 7975 2250
-Wire Wire Line
-	8475 1450 8475 1500
-Connection ~ 8475 2200
-Wire Wire Line
-	8475 2200 8475 2250
-Connection ~ 8475 2950
-Wire Wire Line
-	8475 2950 8475 3000
-Wire Wire Line
-	8975 3700 8975 3000
 Connection ~ 8975 2200
-Wire Wire Line
-	8975 2200 8975 1500
-Connection ~ 8975 2950
-Wire Wire Line
-	8975 2950 8975 2250
-Wire Wire Line
-	9475 1450 9475 1500
 Connection ~ 9475 2200
-Wire Wire Line
-	9475 2200 9475 2250
 Connection ~ 9475 2950
-Wire Wire Line
-	9475 2950 9475 3000
 Connection ~ 7975 3700
-Wire Wire Line
-	8475 3700 8475 3750
 Connection ~ 8475 3700
 Connection ~ 8975 3700
 Connection ~ 9475 3700
-Wire Wire Line
-	10475 4450 10475 3750
 Connection ~ 10475 2200
-Wire Wire Line
-	10475 2200 10475 1500
 Connection ~ 10475 2950
-Wire Wire Line
-	10475 2950 10475 2250
 Connection ~ 10475 3700
-Wire Wire Line
-	10475 3700 10475 3000
-Wire Wire Line
-	10975 2200 10975 2250
 Connection ~ 10975 2950
-Wire Wire Line
-	10975 2950 10975 3000
 Connection ~ 10975 3700
-Wire Wire Line
-	10975 3700 10975 3750
-Text GLabel 1200 2150 0    50   Input ~ 0
-3v3
-Text GLabel 1200 2350 0    50   Input ~ 0
-GND
-Text GLabel 2350 2550 2    50   Input ~ 0
-En
-Text GLabel 2350 3550 2    50   Input ~ 0
-SDA
-Text GLabel 2350 3450 2    50   Input ~ 0
-SCL
-NoConn ~ 1200 2050
-NoConn ~ 1200 2250
-Text GLabel 2350 3350 2    50   Input ~ 0
-ROW5
-Text GLabel 2350 3250 2    50   Input ~ 0
-ROW4
-Text GLabel 1200 2850 0    50   Input ~ 0
-ENC_1
-Text GLabel 1200 2950 0    50   Input ~ 0
-ENC_2
 Text GLabel 7425 5725 2    50   Input ~ 0
 ENC_SW
 Text GLabel 6825 5725 0    50   Input ~ 0
@@ -1844,8 +1557,6 @@ Text GLabel 6825 5825 0    50   Input ~ 0
 GND
 Text GLabel 7425 5925 2    50   Input ~ 0
 GND
-Text GLabel 3525 1850 0    50   Input ~ 0
-ROW1
 Text GLabel 3525 2600 0    50   Input ~ 0
 ROW2
 Text GLabel 3525 3350 0    50   Input ~ 0
@@ -1854,9 +1565,6 @@ Text GLabel 3525 4100 0    50   Input ~ 0
 ROW4
 Text GLabel 3525 4850 0    50   Input ~ 0
 ROW5
-Wire Wire Line
-	3775 1850 3525 1850
-Connection ~ 3775 1850
 Wire Wire Line
 	3775 2600 3525 2600
 Connection ~ 3775 2600
@@ -1877,36 +1585,6 @@ Text GLabel 9450 5725 0    50   Input ~ 0
 SCL
 Text GLabel 9450 5825 0    50   Input ~ 0
 3v3
-Text GLabel 2125 6450 2    50   Input ~ 0
-COL1
-Text GLabel 2125 6550 2    50   Input ~ 0
-COL2
-Text GLabel 2125 6650 2    50   Input ~ 0
-COL3
-Text GLabel 2125 6750 2    50   Input ~ 0
-COL4
-Text GLabel 2125 6850 2    50   Input ~ 0
-COL5
-Text GLabel 2125 6950 2    50   Input ~ 0
-COL6
-Text GLabel 2125 7050 2    50   Input ~ 0
-COL7
-Text GLabel 2125 7150 2    50   Input ~ 0
-COL8
-Text GLabel 2125 5550 2    50   Input ~ 0
-COL9
-Text GLabel 2125 5650 2    50   Input ~ 0
-COL10
-Text GLabel 2125 5750 2    50   Input ~ 0
-COL11
-Text GLabel 2125 5850 2    50   Input ~ 0
-COL12
-Text GLabel 2125 5950 2    50   Input ~ 0
-COL13
-Text GLabel 2125 6050 2    50   Input ~ 0
-COL14
-Text GLabel 2125 6150 2    50   Input ~ 0
-COL15
 Text GLabel 1425 7450 3    50   Input ~ 0
 GND
 Text GLabel 1425 5250 1    50   Input ~ 0
@@ -1941,9 +1619,6 @@ Text GLabel 10475 1200 1    50   Input ~ 0
 COL14
 Text GLabel 10975 1200 1    50   Input ~ 0
 COL15
-Connection ~ 9975 1450
-Wire Wire Line
-	9975 1450 9975 1200
 Wire Wire Line
 	10475 1200 10475 1450
 Connection ~ 10475 1450
@@ -1957,29 +1632,17 @@ Wire Wire Line
 	8975 1450 8975 1200
 Connection ~ 8975 1450
 Wire Wire Line
-	8475 1200 8475 1450
-Connection ~ 8475 1450
-Wire Wire Line
 	7975 1450 7975 1200
 Connection ~ 7975 1450
 Wire Wire Line
 	7475 1200 7475 1450
 Connection ~ 7475 1450
 Wire Wire Line
-	6975 1450 6975 1200
-Connection ~ 6975 1450
-Wire Wire Line
 	6475 1200 6475 1450
 Connection ~ 6475 1450
 Wire Wire Line
-	5975 1450 5975 1200
-Connection ~ 5975 1450
-Wire Wire Line
 	5475 1200 5475 1450
 Connection ~ 5475 1450
-Wire Wire Line
-	4975 1450 4975 1200
-Connection ~ 4975 1450
 Wire Wire Line
 	4475 1200 4475 1450
 Connection ~ 4475 1450
@@ -2006,8 +1669,6 @@ Wire Notes Line
 	3150 575  3150 7750
 Text Notes 2125 5375 0    118  ~ 0
 Decoder
-Text Notes 1125 1450 0    118  ~ 0
-Microcontroller
 Text Notes 3780 5385 0    118  ~ 0
 Off Switch
 Text Notes 6775 5325 0    118  ~ 0
@@ -2028,369 +1689,6 @@ F 3 "" H 3200 1475 60  0001 C CNN
 	1    3825 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4925 1500 4975 1500
-Connection ~ 4975 1500
-Wire Wire Line
-	4975 1500 4975 1450
-Wire Wire Line
-	4475 1450 4475 1500
-Wire Wire Line
-	4425 1500 4475 1500
-Connection ~ 4475 1500
-Wire Wire Line
-	4475 1500 4475 2200
-Wire Wire Line
-	3975 1450 3975 1500
-Wire Wire Line
-	3925 1500 3975 1500
-Connection ~ 3975 1500
-Wire Wire Line
-	3975 1500 3975 2200
-Wire Wire Line
-	5425 1500 5475 1500
-Connection ~ 5475 1500
-Wire Wire Line
-	5475 1500 5475 2200
-Wire Wire Line
-	5925 1500 5975 1500
-Connection ~ 5975 1500
-Wire Wire Line
-	5975 1500 5975 1450
-Wire Wire Line
-	6425 1500 6475 1500
-Connection ~ 6475 1500
-Wire Wire Line
-	6475 1500 6475 2200
-Wire Wire Line
-	6925 1500 6975 1500
-Connection ~ 6975 1500
-Wire Wire Line
-	6975 1500 6975 1450
-Wire Wire Line
-	7425 1500 7475 1500
-Connection ~ 7475 1500
-Wire Wire Line
-	7475 1500 7475 2200
-Wire Wire Line
-	7925 1500 7975 1500
-Connection ~ 7975 1500
-Wire Wire Line
-	7975 1500 7975 1450
-Wire Wire Line
-	8425 1500 8475 1500
-Connection ~ 8475 1500
-Wire Wire Line
-	8475 1500 8475 2200
-Wire Wire Line
-	8925 1500 8975 1500
-Connection ~ 8975 1500
-Wire Wire Line
-	8975 1500 8975 1450
-Wire Wire Line
-	9425 1500 9475 1500
-Connection ~ 9475 1500
-Wire Wire Line
-	9475 1500 9475 2200
-Wire Wire Line
-	9925 1500 9975 1500
-Connection ~ 9975 1500
-Wire Wire Line
-	9975 1500 9975 1450
-Wire Wire Line
-	10425 1500 10475 1500
-Connection ~ 10475 1500
-Wire Wire Line
-	10475 1500 10475 1450
-Wire Wire Line
-	3925 2250 3975 2250
-Wire Wire Line
-	3975 2200 3975 2250
-Connection ~ 3975 2250
-Wire Wire Line
-	3975 2250 3975 2950
-Wire Wire Line
-	4425 2250 4475 2250
-Connection ~ 4475 2250
-Wire Wire Line
-	4475 2250 4475 2200
-Wire Wire Line
-	4925 2250 4975 2250
-Wire Wire Line
-	4975 2200 4975 2250
-Connection ~ 4975 2250
-Wire Wire Line
-	4975 2250 4975 2950
-Wire Wire Line
-	5425 2250 5475 2250
-Connection ~ 5475 2250
-Wire Wire Line
-	5475 2250 5475 2950
-Wire Wire Line
-	5925 2250 5975 2250
-Connection ~ 5975 2250
-Wire Wire Line
-	5975 2250 5975 2200
-Wire Wire Line
-	6425 2250 6475 2250
-Wire Wire Line
-	6475 2200 6475 2250
-Connection ~ 6475 2250
-Wire Wire Line
-	6475 2250 6475 2950
-Wire Wire Line
-	6925 2250 6975 2250
-Connection ~ 6975 2250
-Wire Wire Line
-	6975 2250 6975 2200
-Wire Wire Line
-	7425 2250 7475 2250
-Connection ~ 7475 2250
-Wire Wire Line
-	7475 2250 7475 2950
-Wire Wire Line
-	7925 2250 7975 2250
-Connection ~ 7975 2250
-Wire Wire Line
-	7975 2250 7975 2200
-Wire Wire Line
-	8425 2250 8475 2250
-Connection ~ 8475 2250
-Wire Wire Line
-	8475 2250 8475 2950
-Wire Wire Line
-	8925 2250 8975 2250
-Connection ~ 8975 2250
-Wire Wire Line
-	8975 2250 8975 2200
-Wire Wire Line
-	9425 2250 9475 2250
-Connection ~ 9475 2250
-Wire Wire Line
-	9475 2250 9475 2950
-Wire Wire Line
-	9925 2250 9975 2250
-Wire Wire Line
-	9975 1500 9975 2200
-Connection ~ 9975 2200
-Wire Wire Line
-	9975 2200 9975 2250
-Wire Wire Line
-	10425 2250 10475 2250
-Connection ~ 10475 2250
-Wire Wire Line
-	10475 2250 10475 2200
-Wire Wire Line
-	10925 2250 10975 2250
-Connection ~ 10975 2250
-Wire Wire Line
-	10975 2250 10975 2950
-Wire Wire Line
-	3925 3000 3975 3000
-Connection ~ 3975 3000
-Wire Wire Line
-	3975 3000 3975 3700
-Wire Wire Line
-	4475 3700 4475 3000
-Wire Wire Line
-	4425 3000 4475 3000
-Connection ~ 4475 3000
-Wire Wire Line
-	4475 3000 4475 2950
-Wire Wire Line
-	4925 3000 4975 3000
-Connection ~ 4975 3000
-Wire Wire Line
-	4975 3000 4975 2950
-Wire Wire Line
-	5475 2950 5475 3000
-Wire Wire Line
-	5425 3000 5475 3000
-Connection ~ 5475 3000
-Wire Wire Line
-	5475 3000 5475 3700
-Wire Wire Line
-	5925 3000 5975 3000
-Connection ~ 5975 3000
-Wire Wire Line
-	5975 3000 5975 2950
-Wire Wire Line
-	6425 3000 6475 3000
-Connection ~ 6475 3000
-Wire Wire Line
-	6475 3000 6475 3700
-Wire Wire Line
-	6925 3000 6975 3000
-Connection ~ 6975 3000
-Wire Wire Line
-	6975 3000 6975 2950
-Wire Wire Line
-	7425 3000 7475 3000
-Connection ~ 7475 3000
-Wire Wire Line
-	7475 3000 7475 3700
-Wire Wire Line
-	7925 3000 7975 3000
-Connection ~ 7975 3000
-Wire Wire Line
-	7975 3000 7975 2950
-Wire Wire Line
-	8425 3000 8475 3000
-Connection ~ 8475 3000
-Wire Wire Line
-	8475 3000 8475 3700
-Wire Wire Line
-	8925 3000 8975 3000
-Connection ~ 8975 3000
-Wire Wire Line
-	8975 3000 8975 2950
-Wire Wire Line
-	9425 3000 9475 3000
-Connection ~ 9475 3000
-Wire Wire Line
-	9475 3000 9475 3700
-Wire Wire Line
-	10425 3000 10475 3000
-Connection ~ 10475 3000
-Wire Wire Line
-	10475 3000 10475 2950
-Wire Wire Line
-	10925 3000 10975 3000
-Connection ~ 10975 3000
-Wire Wire Line
-	10975 3000 10975 3700
-Wire Wire Line
-	3925 3750 3975 3750
-Connection ~ 3975 3750
-Wire Wire Line
-	4425 3750 4475 3750
-Connection ~ 4475 3750
-Wire Wire Line
-	4475 3750 4475 3700
-Wire Wire Line
-	4925 3750 4975 3750
-Connection ~ 4975 3750
-Wire Wire Line
-	4975 3750 4975 3700
-Wire Wire Line
-	5425 3750 5475 3750
-Wire Wire Line
-	5475 3750 5475 3700
-Connection ~ 5475 3700
-Wire Wire Line
-	5925 3750 5975 3750
-Wire Wire Line
-	5975 3750 5975 3700
-Connection ~ 5975 3700
-Wire Wire Line
-	6925 3750 6975 3750
-Wire Wire Line
-	6975 3750 6975 3700
-Connection ~ 6975 3700
-Wire Wire Line
-	7425 3750 7475 3750
-Wire Wire Line
-	7475 3750 7475 3700
-Connection ~ 7475 3700
-Wire Wire Line
-	7925 3750 7975 3750
-Connection ~ 7975 3750
-Wire Wire Line
-	7975 3750 7975 3700
-Wire Wire Line
-	8425 3750 8475 3750
-Connection ~ 8475 3750
-Wire Wire Line
-	8475 3750 8475 4450
-Wire Wire Line
-	8925 3750 8975 3750
-Wire Wire Line
-	8975 3700 8975 3750
-Connection ~ 8975 3750
-Wire Wire Line
-	8975 3750 8975 4450
-Wire Wire Line
-	9425 3750 9475 3750
-Wire Wire Line
-	9475 3700 9475 3750
-Connection ~ 9475 3750
-Wire Wire Line
-	10425 3750 10475 3750
-Connection ~ 10475 3750
-Wire Wire Line
-	10475 3750 10475 3700
-Wire Wire Line
-	10925 3750 10975 3750
-Connection ~ 10975 3750
-Wire Wire Line
-	10975 3750 10975 4450
-Wire Wire Line
-	10925 4500 10975 4500
-Wire Wire Line
-	10975 4500 10975 4450
-Connection ~ 10975 4450
-Wire Wire Line
-	10425 4500 10475 4500
-Wire Wire Line
-	10475 4500 10475 4450
-Connection ~ 10475 4450
-Wire Wire Line
-	9425 4500 9475 4500
-Wire Wire Line
-	9475 3750 9475 4450
-Connection ~ 9475 4450
-Wire Wire Line
-	9475 4450 9475 4500
-Wire Wire Line
-	8925 4500 8975 4500
-Wire Wire Line
-	8975 4500 8975 4450
-Connection ~ 8975 4450
-Wire Wire Line
-	8425 4500 8475 4500
-Wire Wire Line
-	8475 4500 8475 4450
-Connection ~ 8475 4450
-Wire Wire Line
-	7925 4500 7975 4500
-Wire Wire Line
-	7975 3750 7975 4450
-Connection ~ 7975 4450
-Wire Wire Line
-	7975 4450 7975 4500
-Wire Wire Line
-	6425 4500 6475 4500
-Wire Wire Line
-	6475 4500 6475 4450
-Connection ~ 6475 4450
-Wire Wire Line
-	4925 4500 4975 4500
-Wire Wire Line
-	4975 3750 4975 4450
-Connection ~ 4975 4450
-Wire Wire Line
-	4975 4450 4975 4500
-Wire Wire Line
-	4425 4500 4475 4500
-Wire Wire Line
-	4475 3750 4475 4450
-Connection ~ 4475 4450
-Wire Wire Line
-	4475 4450 4475 4500
-Wire Wire Line
-	3925 4500 3975 4500
-Wire Wire Line
-	3975 3750 3975 4450
-Connection ~ 3975 4450
-Wire Wire Line
-	3975 4450 3975 4500
-Wire Wire Line
-	6475 3700 6475 3750
-Wire Wire Line
-	6425 3750 6475 3750
-Connection ~ 6475 3750
-Wire Wire Line
-	6475 3750 6475 4450
 $Comp
 L MX_Alps_Hybrid:MX-LED MX_DEL1
 U 1 1 5F4B73CC
@@ -2403,13 +1701,6 @@ F 3 "" H 10200 1475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10975 1450
-Wire Wire Line
-	10975 1450 10975 1500
-Wire Wire Line
-	10925 1500 10975 1500
-Connection ~ 10975 1500
-Wire Wire Line
-	10975 1500 10975 2200
 $Comp
 L Device:D_Small D15
 U 1 1 5F4CB8ED
@@ -2424,19 +1715,692 @@ $EndComp
 Wire Wire Line
 	10275 1850 10775 1850
 Connection ~ 10275 1850
-Text GLabel 3525 1600 0    50   Input ~ 0
-LROW1
+Text GLabel 725  5550 0    50   Input ~ 0
+SDA
+Text GLabel 725  5650 0    50   Input ~ 0
+SCL
+Wire Notes Line
+	5500 5050 5500 7750
+Wire Notes Line
+	8500 6505 8500 5050
+Text Notes 3505 6860 0    118  ~ 0
+Protocol Pins
 Wire Wire Line
-	3525 1600 3825 1600
+	500  6450 500  5250
+Wire Wire Line
+	500  5250 1425 5250
+Wire Wire Line
+	500  6450 725  6450
+Text GLabel 3625 7070 0    50   Input ~ 0
+SDA
+Text GLabel 3625 7170 0    50   Input ~ 0
+SCL
+Text GLabel 4665 7200 0    50   Input ~ 0
+SCLK
+Text GLabel 4665 7300 0    50   Input ~ 0
+MOSI
+Text GLabel 3625 7270 0    50   Input ~ 0
+3v3
+Text GLabel 3625 7370 0    50   Input ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5F8D1BF1
+P 3825 7170
+F 0 "J1" H 3905 7162 50  0000 L CNN
+F 1 "Conn_I2C" H 3905 7071 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3825 7170 50  0001 C CNN
+F 3 "~" H 3825 7170 50  0001 C CNN
+	1    3825 7170
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5F8DBB31
+P 4865 7200
+F 0 "J2" H 4945 7242 50  0000 L CNN
+F 1 "Conn_SPI" H 4945 7151 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 4865 7200 50  0001 C CNN
+F 3 "~" H 4865 7200 50  0001 C CNN
+	1    4865 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4665 7100 0    50   Input ~ 0
+3v3
+Text GLabel 4665 7000 0    50   Input ~ 0
+GND
+Wire Notes Line
+	3150 6505 11200 6505
+Text GLabel 2125 6250 2    50   Input ~ 0
+COL8
+Text GLabel 2125 6150 2    50   Input ~ 0
+COL7
+Text GLabel 2125 6050 2    50   Input ~ 0
+COL6
+Text GLabel 2125 5950 2    50   Input ~ 0
+COL5
+Text GLabel 2125 5850 2    50   Input ~ 0
+COL4
+Text GLabel 2125 5750 2    50   Input ~ 0
+COL3
+Text GLabel 2125 5650 2    50   Input ~ 0
+COL2
+Text GLabel 2125 5550 2    50   Input ~ 0
+COL1
+Text GLabel 4665 7400 0    50   Input ~ 0
+MISO
+Text GLabel 2125 7050 2    50   Input ~ 0
+COL11
+Text GLabel 2125 6950 2    50   Input ~ 0
+COL10
+Text GLabel 2125 7150 2    50   Input ~ 0
+COL12
+Text GLabel 2125 6750 2    50   Input ~ 0
+COL13
+Text GLabel 2125 6650 2    50   Input ~ 0
+COL14
+Text GLabel 2125 6550 2    50   Input ~ 0
+COL15
+Text GLabel 2125 6850 2    50   Input ~ 0
+COL9
+Wire Wire Line
+	9975 1450 9975 1200
+Connection ~ 9975 1450
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_=1
+U 1 1 5E0E0D81
+P 9825 1500
+F 0 "MX_=1" H 9858 1723 60  0000 C CNN
+F 1 "MX-LED" H 9858 1649 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 9200 1475 60  0001 C CNN
+F 3 "" H 9200 1475 60  0001 C CNN
+	1    9825 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 2205 0    50   Input ~ 0
+ENC_SW
+Text GLabel 1200 2705 0    50   Input ~ 0
+MISO
+Text GLabel 1200 2605 0    50   Input ~ 0
+MOSI
+Text GLabel 1200 2505 0    50   Input ~ 0
+SCLK
+NoConn ~ 1200 3005
+NoConn ~ 2350 2605
+NoConn ~ 2350 1905
+Text GLabel 2350 2505 2    50   Input ~ 0
+ROW3
+Text GLabel 2350 2405 2    50   Input ~ 0
+ROW2
+Text GLabel 2350 2305 2    50   Input ~ 0
+ROW1
+NoConn ~ 2350 2105
+Text Notes 1125 905  0    118  ~ 0
+Microcontroller
+Text GLabel 1200 2305 0    50   Input ~ 0
+ENC_2
+Text GLabel 1200 2405 0    50   Input ~ 0
+ENC_1
+Text GLabel 2350 2705 2    50   Input ~ 0
+ROW4
+Text GLabel 2350 2805 2    50   Input ~ 0
+ROW5
+NoConn ~ 1200 1705
+NoConn ~ 1200 1505
+Text GLabel 2350 2905 2    50   Input ~ 0
+SCL
+Text GLabel 2350 3005 2    50   Input ~ 0
+SDA
+Text GLabel 2350 2005 2    50   Input ~ 0
+En
+Text GLabel 1200 1805 0    50   Input ~ 0
+GND
+Text GLabel 1200 1605 0    50   Input ~ 0
+3v3
+$Comp
+L lab68:Adafruit_Feather_32u4_Bluefruit_LE U1
+U 1 1 5E0C06C9
+P 1800 2255
+F 0 "U1" H 1800 3280 50  0000 C CNN
+F 1 "Adafruit_Feather_32u4_Bluefruit_LE" H 1800 3180 50  0000 C CNN
+F 2 "lab68:Adafruit_Feather_32u4_Bluefruit_LE" H 1800 2255 50  0001 C CNN
+F 3 "" H 1800 2255 50  0001 C CNN
+	1    1800 2255
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 1850 4275 1850
+Connection ~ 4275 1850
+Wire Wire Line
+	4275 1850 3775 1850
+Connection ~ 3775 1850
+Wire Wire Line
+	3775 1850 3525 1850
+Text GLabel 3525 1850 0    50   Input ~ 0
+ROW1
+Connection ~ 4775 1850
+Connection ~ 5275 1850
+Wire Wire Line
+	5275 1850 4775 1850
+Wire Wire Line
+	5975 2200 5975 2950
+Wire Wire Line
+	5475 2200 5475 2950
+Wire Wire Line
+	4975 2200 4975 2950
+Wire Wire Line
+	3975 1450 3975 2200
+Wire Wire Line
+	4475 1450 4475 2200
+Wire Wire Line
+	5475 1450 5475 2200
+Wire Wire Line
+	5975 1450 5975 1200
+Connection ~ 5975 1450
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_4
+U 1 1 5E0A94A8
+P 5825 1500
+F 0 "MX_4" H 5858 1723 60  0000 C CNN
+F 1 "MX-LED" H 5858 1649 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5200 1475 60  0001 C CNN
+F 3 "" H 5200 1475 60  0001 C CNN
+	1    5825 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5975 1450 5975 2200
+Wire Wire Line
+	6475 1450 6475 2200
+Wire Wire Line
+	6975 1450 6975 1200
+Connection ~ 6975 1450
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_6
+U 1 1 5E0DE3FA
+P 6825 1500
+F 0 "MX_6" H 6858 1723 60  0000 C CNN
+F 1 "MX-LED" H 6858 1649 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 6200 1475 60  0001 C CNN
+F 3 "" H 6200 1475 60  0001 C CNN
+	1    6825 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 1450 6975 2200
+Wire Wire Line
+	7975 1450 7975 2200
+Wire Wire Line
+	8475 1200 8475 1450
+Connection ~ 8475 1450
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_9
+U 1 1 5E0DE40C
+P 8325 1500
+F 0 "MX_9" H 8358 1723 60  0000 C CNN
+F 1 "MX-LED" H 8358 1649 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 7700 1475 60  0001 C CNN
+F 3 "" H 7700 1475 60  0001 C CNN
+	1    8325 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8975 1450 8975 2200
+Wire Wire Line
+	9475 1450 9475 2200
+Wire Wire Line
+	9975 1450 9975 2200
+Wire Wire Line
+	10475 1450 10475 2200
+Wire Wire Line
+	10975 1450 10975 2200
+Wire Wire Line
+	10975 2200 10975 2950
+Wire Wire Line
+	10475 2200 10475 2950
+Wire Wire Line
+	9475 2200 9475 2950
+Wire Wire Line
+	8475 1450 8475 2200
+Connection ~ 8475 2200
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_O1
+U 1 1 5E0F5ED1
+P 8325 2250
+F 0 "MX_O1" H 8358 2473 60  0000 C CNN
+F 1 "MX-LED" H 8358 2399 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 7700 2225 60  0001 C CNN
+F 3 "" H 7700 2225 60  0001 C CNN
+	1    8325 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7975 2200 7975 2950
+Wire Wire Line
+	7475 1450 7475 2200
+Connection ~ 7475 2200
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_U1
+U 1 1 5E0F5EC5
+P 7325 2250
+F 0 "MX_U1" H 7358 2473 60  0000 C CNN
+F 1 "MX-LED" H 7358 2399 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 6700 2225 60  0001 C CNN
+F 3 "" H 6700 2225 60  0001 C CNN
+	1    7325 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 2200 7475 2950
+Wire Wire Line
+	6975 2200 6975 2950
+Wire Wire Line
+	6475 2200 6475 2950
+Wire Wire Line
+	4475 2200 4475 2950
+Wire Wire Line
+	3975 2200 3975 2950
+Wire Wire Line
+	3975 2950 3975 3700
+Wire Wire Line
+	4975 2950 4975 3700
+Wire Wire Line
+	5475 2950 5475 3700
+Wire Wire Line
+	5975 2950 5975 3700
+Wire Wire Line
+	6975 2950 6975 3700
+Wire Wire Line
+	7475 2950 7475 3700
+Wire Wire Line
+	7975 2950 7975 3700
+Wire Wire Line
+	8475 2200 8475 2950
+Connection ~ 8475 2950
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_L1
+U 1 1 5E1086A9
+P 8325 3000
+F 0 "MX_L1" H 8358 3223 60  0000 C CNN
+F 1 "MX-LED" H 8358 3149 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 7700 2975 60  0001 C CNN
+F 3 "" H 7700 2975 60  0001 C CNN
+	1    8325 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 2950 8475 3700
+Wire Wire Line
+	8975 2200 8975 2950
+Connection ~ 8975 2950
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_;1
+U 1 1 5E1086AF
+P 8825 3000
+F 0 "MX_;1" H 8858 3223 60  0000 C CNN
+F 1 "MX-LED" H 8858 3149 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 8200 2975 60  0001 C CNN
+F 3 "" H 8200 2975 60  0001 C CNN
+	1    8825 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8975 2950 8975 3700
+Wire Wire Line
+	9475 2950 9475 3700
+Wire Wire Line
+	10475 2950 10475 3700
+Wire Wire Line
+	10975 2950 10975 3700
+Wire Wire Line
+	10975 3700 10975 4450
+Wire Wire Line
+	10475 3700 10475 4450
+Wire Wire Line
+	9475 3700 9475 4450
+Wire Wire Line
+	8975 3700 8975 4450
+Wire Wire Line
+	7975 3700 7975 4450
+Wire Wire Line
+	6475 2950 6475 3700
+Connection ~ 6475 3700
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_B1
+U 1 1 5E1196A0
+P 6325 3750
+F 0 "MX_B1" H 6358 3973 60  0000 C CNN
+F 1 "MX-LED" H 6358 3899 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5700 3725 60  0001 C CNN
+F 3 "" H 5700 3725 60  0001 C CNN
+	1    6325 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 3700 6475 4450
+Wire Wire Line
+	4475 2950 4475 3700
+Connection ~ 4475 3700
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_Z1
+U 1 1 5E119688
+P 4325 3750
+F 0 "MX_Z1" H 4358 3973 60  0000 C CNN
+F 1 "MX-LED" H 4358 3899 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 3700 3725 60  0001 C CNN
+F 3 "" H 3700 3725 60  0001 C CNN
+	1    4325 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 3700 4475 4450
+Wire Wire Line
+	3975 3700 3975 4450
+Wire Wire Line
+	4975 3700 4975 4450
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_LALT1
+U 1 1 5E11C353
+P 4825 4500
+F 0 "MX_LALT1" H 4907 4724 60  0000 C CNN
+F 1 "MX-LED" H 4907 4650 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U" H 4200 4475 60  0001 C CNN
+F 3 "" H 4200 4475 60  0001 C CNN
+	1    4825 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_SPC1
+U 1 1 5E11D6FF
+P 6325 4500
+F 0 "MX_SPC1" H 6358 4723 60  0000 C CNN
+F 1 "MX-LED" H 6358 4649 20  0000 C CNN
+F 2 "MX_Only:MXOnly-6.25U-ReversedStabilizers" H 5700 4475 60  0001 C CNN
+F 3 "" H 5700 4475 60  0001 C CNN
+	1    6325 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 3700 8475 4450
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_FN1
+U 1 1 5E1220B3
+P 8325 4500
+F 0 "MX_FN1" H 8358 4723 60  0000 C CNN
+F 1 "MX-LED" H 8358 4649 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 7700 4475 60  0001 C CNN
+F 3 "" H 7700 4475 60  0001 C CNN
+	1    8325 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_LEFT1
+U 1 1 5E1220B9
+P 9325 4500
+F 0 "MX_LEFT1" H 9358 4723 60  0000 C CNN
+F 1 "MX-LED" H 9358 4649 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 8700 4475 60  0001 C CNN
+F 3 "" H 8700 4475 60  0001 C CNN
+	1    9325 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 4500 3925 3750
+Connection ~ 3925 2250
+Wire Wire Line
+	3925 2250 3925 1500
+Connection ~ 3925 3000
+Wire Wire Line
+	3925 3000 3925 2250
+Connection ~ 3925 3750
+Wire Wire Line
+	3925 3750 3925 3000
+Wire Wire Line
+	4425 1500 4425 2250
+Connection ~ 4425 2250
+Wire Wire Line
+	4425 2250 4425 3000
+Connection ~ 4425 3000
+Wire Wire Line
+	4425 3000 4425 3750
+Connection ~ 4425 3750
+Wire Wire Line
+	4425 3750 4425 4500
+Wire Wire Line
+	4925 1500 4925 2250
+Connection ~ 4925 2250
+Wire Wire Line
+	4925 2250 4925 3000
+Connection ~ 4925 3000
+Wire Wire Line
+	4925 3000 4925 3750
+Connection ~ 4925 3750
+Wire Wire Line
+	4925 3750 4925 4500
+Wire Notes Line
+	3150 3500 575  3500
+$Comp
+L Transistor_FET:IRLB8721PBF Q1
+U 1 1 5FD8E318
+P 1775 4395
+F 0 "Q1" H 1979 4441 50  0000 L CNN
+F 1 "IRLB8721PBF" H 1979 4350 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 2025 4320 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591" H 1775 4395 50  0001 L CNN
+	1    1775 4395
+	1    0    0    -1  
+$EndComp
+Text Notes 1410 3855 0    118  ~ 0
+LED Driver
+Text GLabel 1875 4195 1    50   Input ~ 0
+LEDS
+Text GLabel 3925 4530 3    50   Input ~ 0
+3v3
+Text GLabel 4425 4530 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	3925 4530 3925 4500
+Connection ~ 3925 4500
+Wire Wire Line
+	4425 4500 4425 4530
+Connection ~ 4425 4500
+Text GLabel 4925 4530 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	4925 4500 4925 4530
+Connection ~ 4925 4500
+Text GLabel 6425 4530 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	6425 4530 6425 4500
+Wire Wire Line
+	6425 4500 6425 3750
+Connection ~ 6425 4500
+Connection ~ 6425 2250
+Wire Wire Line
+	6425 2250 6425 1500
+Connection ~ 6425 3000
+Wire Wire Line
+	6425 3000 6425 2250
+Connection ~ 6425 3750
+Wire Wire Line
+	6425 3750 6425 3000
+Wire Wire Line
+	6925 1500 6925 2250
+Connection ~ 6925 2250
+Wire Wire Line
+	6925 2250 6925 3000
+Connection ~ 6925 3000
+Wire Wire Line
+	6925 3000 6925 3750
+Text GLabel 6925 3780 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	6925 3780 6925 3750
+Connection ~ 6925 3750
+Text GLabel 7425 3780 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	7425 3780 7425 3750
+Wire Wire Line
+	7425 3750 7425 3000
+Connection ~ 7425 3750
+Connection ~ 7425 2250
+Wire Wire Line
+	7425 2250 7425 1500
+Connection ~ 7425 3000
+Wire Wire Line
+	7425 3000 7425 2250
+Wire Wire Line
+	7925 1500 7925 2250
+Connection ~ 7925 2250
+Wire Wire Line
+	7925 2250 7925 3000
+Connection ~ 7925 3000
+Wire Wire Line
+	7925 3000 7925 3750
+Connection ~ 7925 3750
+Wire Wire Line
+	7925 3750 7925 4500
+Text GLabel 7925 4530 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	7925 4530 7925 4500
+Connection ~ 7925 4500
+Text GLabel 8425 4530 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	8425 4500 8425 4530
+Wire Wire Line
+	8425 4500 8425 3750
+Connection ~ 8425 4500
+Connection ~ 8425 2250
+Wire Wire Line
+	8425 2250 8425 1500
+Connection ~ 8425 3000
+Wire Wire Line
+	8425 3000 8425 2250
+Connection ~ 8425 3750
+Wire Wire Line
+	8425 3750 8425 3000
+Wire Wire Line
+	8925 1500 8925 2250
+Connection ~ 8925 2250
+Wire Wire Line
+	8925 2250 8925 3000
+Connection ~ 8925 3000
+Wire Wire Line
+	8925 3000 8925 3750
+Connection ~ 8925 3750
+Wire Wire Line
+	8925 3750 8925 4500
+Text GLabel 8925 4530 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	8925 4530 8925 4500
+Connection ~ 8925 4500
+Text GLabel 9425 4530 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	9425 4530 9425 4500
+Wire Wire Line
+	9425 4500 9425 3750
+Connection ~ 9425 4500
+Connection ~ 9425 2250
+Wire Wire Line
+	9425 2250 9425 1500
+Connection ~ 9425 3000
+Wire Wire Line
+	9425 3000 9425 2250
+Connection ~ 9425 3750
+Wire Wire Line
+	9425 3750 9425 3000
+Wire Wire Line
+	9925 1500 9925 2250
+Text GLabel 9925 2280 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	9925 2250 9925 2280
+Connection ~ 9925 2250
+Wire Wire Line
+	10425 1500 10425 2250
+Connection ~ 10425 2250
+Wire Wire Line
+	10425 2250 10425 3000
+Connection ~ 10425 3000
+Wire Wire Line
+	10425 3000 10425 3750
+Connection ~ 10425 3750
+Wire Wire Line
+	10425 3750 10425 4500
+Text GLabel 10425 4530 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	10425 4530 10425 4500
+Connection ~ 10425 4500
+Text GLabel 10925 4530 3    50   Input ~ 0
+3v3
+Wire Wire Line
+	10925 4530 10925 4500
+Wire Wire Line
+	10925 4500 10925 3750
+Connection ~ 10925 4500
+Connection ~ 10925 2250
+Wire Wire Line
+	10925 2250 10925 1500
+Connection ~ 10925 3000
+Wire Wire Line
+	10925 3000 10925 2250
+Connection ~ 10925 3750
+Wire Wire Line
+	10925 3750 10925 3000
+Wire Wire Line
+	4975 1450 4975 1200
+Wire Wire Line
+	4975 1450 4975 2200
+Connection ~ 4975 1450
+$Comp
+L MX_Alps_Hybrid:MX-LED MX_2
+U 1 1 5E0A7DF2
+P 4825 1500
+F 0 "MX_2" H 4858 1723 60  0000 C CNN
+F 1 "MX-LED" H 4858 1649 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 4200 1475 60  0001 C CNN
+F 3 "" H 4200 1475 60  0001 C CNN
+	1    4825 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1575 4395 0    50   Input ~ 0
+LEDCTL
+Text GLabel 1875 4595 3    50   Input ~ 0
+GND
+$Comp
+L Device:R_Small R1
+U 1 1 5FF50A0F
+P 1575 4565
+F 0 "R1" H 1634 4611 50  0000 L CNN
+F 1 "10KΩ" H 1634 4520 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 1575 4565 50  0001 C CNN
+F 3 "~" H 1575 4565 50  0001 C CNN
+	1    1575 4565
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 4395 1575 4465
+Wire Wire Line
+	1575 4665 1740 4665
+Wire Wire Line
+	1740 4665 1740 4595
+Wire Wire Line
+	1740 4595 1875 4595
 Wire Wire Line
 	3825 1600 4325 1600
-Connection ~ 3825 1600
-Wire Wire Line
-	4325 1600 4825 1600
 Connection ~ 4325 1600
 Wire Wire Line
-	4825 1600 5325 1600
+	4325 1600 4825 1600
 Connection ~ 4825 1600
+Wire Wire Line
+	4825 1600 5325 1600
 Connection ~ 5325 1600
 Wire Wire Line
 	5325 1600 5825 1600
@@ -2470,57 +2434,47 @@ Wire Wire Line
 Connection ~ 10325 1600
 Wire Wire Line
 	10325 1600 10825 1600
-Text GLabel 3525 2350 0    50   Input ~ 0
-LROW2
 Wire Wire Line
-	3525 2350 3825 2350
-Connection ~ 3825 2350
-Wire Wire Line
-	3825 2350 4325 2350
+	10825 2350 10325 2350
 Connection ~ 4325 2350
 Wire Wire Line
-	4325 2350 4825 2350
+	4325 2350 3825 2350
 Connection ~ 4825 2350
 Wire Wire Line
-	4825 2350 5325 2350
+	4825 2350 4325 2350
 Connection ~ 5325 2350
 Wire Wire Line
-	5325 2350 5825 2350
+	5325 2350 4825 2350
 Connection ~ 5825 2350
 Wire Wire Line
-	5825 2350 6325 2350
+	5825 2350 5325 2350
 Connection ~ 6325 2350
 Wire Wire Line
-	6325 2350 6825 2350
+	6325 2350 5825 2350
 Connection ~ 6825 2350
 Wire Wire Line
-	6825 2350 7325 2350
+	6825 2350 6325 2350
 Connection ~ 7325 2350
 Wire Wire Line
-	7325 2350 7825 2350
+	7325 2350 6825 2350
 Connection ~ 7825 2350
 Wire Wire Line
-	7825 2350 8325 2350
+	7825 2350 7325 2350
 Connection ~ 8325 2350
 Wire Wire Line
-	8325 2350 8825 2350
+	8325 2350 7825 2350
 Connection ~ 8825 2350
 Wire Wire Line
-	8825 2350 9325 2350
+	8825 2350 8325 2350
 Connection ~ 9325 2350
 Wire Wire Line
-	9325 2350 9825 2350
+	9325 2350 8825 2350
 Connection ~ 9825 2350
 Wire Wire Line
-	9825 2350 10325 2350
+	9825 2350 9325 2350
 Connection ~ 10325 2350
 Wire Wire Line
-	10325 2350 10825 2350
-Text GLabel 3525 3100 0    50   Input ~ 0
-LROW3
-Wire Wire Line
-	3525 3100 3825 3100
-Connection ~ 3825 3100
+	10325 2350 9825 2350
 Wire Wire Line
 	3825 3100 4325 3100
 Connection ~ 4325 3100
@@ -2597,16 +2551,6 @@ Wire Wire Line
 Connection ~ 10325 3850
 Wire Wire Line
 	10325 3850 9325 3850
-Text GLabel 3525 3850 0    50   Input ~ 0
-LROW4
-Wire Wire Line
-	3525 3850 3825 3850
-Connection ~ 3825 3850
-Text GLabel 3525 4600 0    50   Input ~ 0
-LROW5
-Wire Wire Line
-	3525 4600 3825 4600
-Connection ~ 3825 4600
 Wire Wire Line
 	3825 4600 4325 4600
 Connection ~ 4325 4600
@@ -2633,92 +2577,73 @@ Wire Wire Line
 Connection ~ 10325 4600
 Wire Wire Line
 	10325 4600 10825 4600
-Text GLabel 725  5550 0    50   Input ~ 0
-SDA
-Text GLabel 725  5650 0    50   Input ~ 0
-SCL
-NoConn ~ 2350 2650
-Text GLabel 2350 2850 2    50   Input ~ 0
-ROW1
-Text GLabel 2350 2950 2    50   Input ~ 0
-ROW2
-Text GLabel 2350 3050 2    50   Input ~ 0
-ROW3
-NoConn ~ 2350 2450
-Text GLabel 1200 2450 0    50   Input ~ 0
-LROW1
-Text GLabel 1200 2550 0    50   Input ~ 0
-LROW2
-Text GLabel 1200 2650 0    50   Input ~ 0
-LROW3
-Text GLabel 1200 2750 0    50   Input ~ 0
-LROW4
-NoConn ~ 2350 3150
-Text GLabel 1200 3350 0    50   Input ~ 0
-RX
-Text GLabel 1200 3450 0    50   Input ~ 0
-TX
-Wire Notes Line
-	5500 5050 5500 7750
-Wire Notes Line
-	8500 6505 8500 5050
-Wire Notes Line
-	3150 6505 8500 6505
-NoConn ~ 1200 3550
-Text GLabel 2125 6250 2    50   Input ~ 0
-ENC_SW
-Text GLabel 1200 3050 0    50   Input ~ 0
-SCLK
-Text GLabel 1200 3150 0    50   Input ~ 0
-MOSI
-Text GLabel 1200 3250 0    50   Input ~ 0
-MISO
-Text Notes 3505 6860 0    118  ~ 0
-Protocol Pins
+Text GLabel 3525 3100 0    50   Input ~ 0
+LEDS
+Connection ~ 3825 1600
+Connection ~ 3825 2350
 Wire Wire Line
-	500  6450 500  5250
+	3525 3100 3650 3100
+Connection ~ 3825 3100
+Connection ~ 3825 3850
+Connection ~ 3825 4600
 Wire Wire Line
-	500  5250 1425 5250
+	3650 1600 3825 1600
 Wire Wire Line
-	500  6450 725  6450
-Text GLabel 3625 7170 0    50   Input ~ 0
-SDA
-Text GLabel 3625 7270 0    50   Input ~ 0
-SCL
-Text GLabel 4665 7100 0    50   Input ~ 0
-SCLK
-Text GLabel 4665 7300 0    50   Input ~ 0
-MOSI
-Text GLabel 4665 7200 0    50   Input ~ 0
-MISO
-Text GLabel 3625 7070 0    50   Input ~ 0
+	3650 4600 3825 4600
+Connection ~ 3650 3850
+Wire Wire Line
+	3650 3850 3825 3850
+Wire Wire Line
+	3650 3850 3650 4600
+Connection ~ 3650 3100
+Wire Wire Line
+	3650 3100 3825 3100
+Wire Wire Line
+	3650 3100 3650 3850
+Wire Wire Line
+	3650 1600 3650 2350
+Connection ~ 3650 2350
+Wire Wire Line
+	3650 2350 3825 2350
+Wire Wire Line
+	3650 2350 3650 3100
+Wire Wire Line
+	5425 1500 5425 2250
+Connection ~ 5425 2250
+Wire Wire Line
+	5425 2250 5425 3000
+Connection ~ 5425 3000
+Wire Wire Line
+	5425 3000 5425 3750
+Text GLabel 5425 3780 3    50   Input ~ 0
 3v3
-Text GLabel 3625 7370 0    50   Input ~ 0
-GND
-$Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 5F8D1BF1
-P 3825 7170
-F 0 "J1" H 3905 7162 50  0000 L CNN
-F 1 "Conn_I2C" H 3905 7071 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3825 7170 50  0001 C CNN
-F 3 "~" H 3825 7170 50  0001 C CNN
-	1    3825 7170
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J2
-U 1 1 5F8DBB31
-P 4865 7200
-F 0 "J2" H 4945 7242 50  0000 L CNN
-F 1 "Conn_SPI" H 4945 7151 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 4865 7200 50  0001 C CNN
-F 3 "~" H 4865 7200 50  0001 C CNN
-	1    4865 7200
-	1    0    0    -1  
-$EndComp
-Text GLabel 4665 7000 0    50   Input ~ 0
+Wire Wire Line
+	5425 3750 5425 3780
+Connection ~ 5425 3750
+Text GLabel 5925 3780 3    50   Input ~ 0
 3v3
-Text GLabel 4665 7400 0    50   Input ~ 0
-GND
+Wire Wire Line
+	5925 3780 5925 3750
+Wire Wire Line
+	5925 3750 5925 3000
+Connection ~ 5925 3750
+Connection ~ 5925 2250
+Wire Wire Line
+	5925 2250 5925 1500
+Connection ~ 5925 3000
+Wire Wire Line
+	5925 3000 5925 2250
+NoConn ~ 1200 2805
+NoConn ~ 1200 2905
+NoConn ~ 1200 2105
+NoConn ~ 1200 2005
+NoConn ~ 1200 1905
+NoConn ~ 725  6150
+NoConn ~ 725  6250
+NoConn ~ 725  6950
+NoConn ~ 725  7050
+NoConn ~ 725  7150
+Text GLabel 2350 2205 2    50   Input ~ 0
+LEDCTL
+NoConn ~ 2125 6450
 $EndSCHEMATC
