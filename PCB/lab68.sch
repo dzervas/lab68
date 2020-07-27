@@ -1553,10 +1553,6 @@ Text GLabel 6825 5725 0    50   Input ~ 0
 ENC_2
 Text GLabel 6825 5925 0    50   Input ~ 0
 ENC_1
-Text GLabel 6825 5825 0    50   Input ~ 0
-GND
-Text GLabel 7425 5925 2    50   Input ~ 0
-GND
 Text GLabel 3525 2600 0    50   Input ~ 0
 ROW2
 Text GLabel 3525 3350 0    50   Input ~ 0
@@ -1577,18 +1573,10 @@ Connection ~ 3775 4100
 Wire Wire Line
 	3775 4850 3525 4850
 Connection ~ 3775 4850
-Text GLabel 9450 5925 0    50   Input ~ 0
-GND
 Text GLabel 9450 5625 0    50   Input ~ 0
 SDA
 Text GLabel 9450 5725 0    50   Input ~ 0
 SCL
-Text GLabel 9450 5825 0    50   Input ~ 0
-3v3
-Text GLabel 1425 7450 3    50   Input ~ 0
-GND
-Text GLabel 1425 5250 1    50   Input ~ 0
-3v3
 Text GLabel 3975 1200 1    50   Input ~ 0
 COL1
 Text GLabel 4475 1200 1    50   Input ~ 0
@@ -1659,8 +1647,6 @@ F 3 "~" H 4230 5610 50  0001 C CNN
 $EndComp
 Text GLabel 4030 5610 0    50   Input ~ 0
 En
-Text GLabel 4430 5610 2    50   Input ~ 0
-GND
 Text Notes 6875 875  0    118  ~ 0
 Matrix
 Wire Notes Line
@@ -1739,10 +1725,6 @@ Text GLabel 4665 7200 0    50   Input ~ 0
 SCLK
 Text GLabel 4665 7300 0    50   Input ~ 0
 MOSI
-Text GLabel 3625 7270 0    50   Input ~ 0
-3v3
-Text GLabel 3625 7370 0    50   Input ~ 0
-GND
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5F8D1BF1
@@ -1765,10 +1747,6 @@ F 3 "~" H 4865 7200 50  0001 C CNN
 	1    4865 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4665 7100 0    50   Input ~ 0
-3v3
-Text GLabel 4665 7000 0    50   Input ~ 0
-GND
 Wire Notes Line
 	3150 6505 11200 6505
 Text GLabel 2125 6250 2    50   Input ~ 0
@@ -1853,10 +1831,6 @@ Text GLabel 2350 3005 2    50   Input ~ 0
 SDA
 Text GLabel 2350 2005 2    50   Input ~ 0
 En
-Text GLabel 1200 1805 0    50   Input ~ 0
-GND
-Text GLabel 1200 1605 0    50   Input ~ 0
-3v3
 $Comp
 L lab68:Adafruit_Feather_32u4_Bluefruit_LE U1
 U 1 1 5E0C06C9
@@ -2194,23 +2168,15 @@ Text Notes 1410 3855 0    118  ~ 0
 LED Driver
 Text GLabel 1875 4195 1    50   Input ~ 0
 LEDS
-Text GLabel 3925 4530 3    50   Input ~ 0
-3v3
-Text GLabel 4425 4530 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	3925 4530 3925 4500
 Connection ~ 3925 4500
 Wire Wire Line
 	4425 4500 4425 4530
 Connection ~ 4425 4500
-Text GLabel 4925 4530 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	4925 4500 4925 4530
 Connection ~ 4925 4500
-Text GLabel 6425 4530 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	6425 4530 6425 4500
 Wire Wire Line
@@ -2233,13 +2199,9 @@ Wire Wire Line
 Connection ~ 6925 3000
 Wire Wire Line
 	6925 3000 6925 3750
-Text GLabel 6925 3780 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	6925 3780 6925 3750
 Connection ~ 6925 3750
-Text GLabel 7425 3780 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	7425 3780 7425 3750
 Wire Wire Line
@@ -2262,13 +2224,9 @@ Wire Wire Line
 Connection ~ 7925 3750
 Wire Wire Line
 	7925 3750 7925 4500
-Text GLabel 7925 4530 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	7925 4530 7925 4500
 Connection ~ 7925 4500
-Text GLabel 8425 4530 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	8425 4500 8425 4530
 Wire Wire Line
@@ -2294,13 +2252,9 @@ Wire Wire Line
 Connection ~ 8925 3750
 Wire Wire Line
 	8925 3750 8925 4500
-Text GLabel 8925 4530 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	8925 4530 8925 4500
 Connection ~ 8925 4500
-Text GLabel 9425 4530 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	9425 4530 9425 4500
 Wire Wire Line
@@ -2317,8 +2271,6 @@ Wire Wire Line
 	9425 3750 9425 3000
 Wire Wire Line
 	9925 1500 9925 2250
-Text GLabel 9925 2280 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	9925 2250 9925 2280
 Connection ~ 9925 2250
@@ -2333,13 +2285,9 @@ Wire Wire Line
 Connection ~ 10425 3750
 Wire Wire Line
 	10425 3750 10425 4500
-Text GLabel 10425 4530 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	10425 4530 10425 4500
 Connection ~ 10425 4500
-Text GLabel 10925 4530 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	10925 4530 10925 4500
 Wire Wire Line
@@ -2372,8 +2320,6 @@ F 3 "" H 4200 1475 60  0001 C CNN
 $EndComp
 Text GLabel 1575 4395 0    50   Input ~ 0
 LEDCTL
-Text GLabel 1875 4595 3    50   Input ~ 0
-GND
 $Comp
 L Device:R_Small R1
 U 1 1 5FF50A0F
@@ -2615,13 +2561,9 @@ Wire Wire Line
 Connection ~ 5425 3000
 Wire Wire Line
 	5425 3000 5425 3750
-Text GLabel 5425 3780 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	5425 3750 5425 3780
 Connection ~ 5425 3750
-Text GLabel 5925 3780 3    50   Input ~ 0
-3v3
 Wire Wire Line
 	5925 3780 5925 3750
 Wire Wire Line
@@ -2646,4 +2588,325 @@ NoConn ~ 725  7150
 Text GLabel 2350 2205 2    50   Input ~ 0
 LEDCTL
 NoConn ~ 2125 6450
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 6032560F
+P 1200 1605
+F 0 "#PWR0101" H 1200 1455 50  0001 C CNN
+F 1 "+3.3V" V 1215 1733 50  0000 L CNN
+F 2 "" H 1200 1605 50  0001 C CNN
+F 3 "" H 1200 1605 50  0001 C CNN
+	1    1200 1605
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 603797EE
+P 1200 1805
+F 0 "#PWR0102" H 1200 1555 50  0001 C CNN
+F 1 "GND" V 1205 1677 50  0000 R CNN
+F 2 "" H 1200 1805 50  0001 C CNN
+F 3 "" H 1200 1805 50  0001 C CNN
+	1    1200 1805
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6039099B
+P 1875 4595
+F 0 "#PWR0103" H 1875 4345 50  0001 C CNN
+F 1 "GND" H 1880 4422 50  0000 C CNN
+F 2 "" H 1875 4595 50  0001 C CNN
+F 3 "" H 1875 4595 50  0001 C CNN
+	1    1875 4595
+	1    0    0    -1  
+$EndComp
+Connection ~ 1875 4595
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 603D9C1F
+P 1425 5250
+F 0 "#PWR0104" H 1425 5100 50  0001 C CNN
+F 1 "+3.3V" H 1440 5423 50  0000 C CNN
+F 2 "" H 1425 5250 50  0001 C CNN
+F 3 "" H 1425 5250 50  0001 C CNN
+	1    1425 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1425 5250
+$Comp
+L power:GND #PWR0105
+U 1 1 603F48DE
+P 1425 7450
+F 0 "#PWR0105" H 1425 7200 50  0001 C CNN
+F 1 "GND" H 1430 7277 50  0000 C CNN
+F 2 "" H 1425 7450 50  0001 C CNN
+F 3 "" H 1425 7450 50  0001 C CNN
+	1    1425 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 603F7BB6
+P 4665 7100
+F 0 "#PWR0106" H 4665 6950 50  0001 C CNN
+F 1 "+3.3V" V 4680 7228 50  0000 L CNN
+F 2 "" H 4665 7100 50  0001 C CNN
+F 3 "" H 4665 7100 50  0001 C CNN
+	1    4665 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 603F73D3
+P 4665 7000
+F 0 "#PWR0107" H 4665 6750 50  0001 C CNN
+F 1 "GND" V 4670 6872 50  0000 R CNN
+F 2 "" H 4665 7000 50  0001 C CNN
+F 3 "" H 4665 7000 50  0001 C CNN
+	1    4665 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 60452B9A
+P 3625 7370
+F 0 "#PWR0108" H 3625 7120 50  0001 C CNN
+F 1 "GND" V 3630 7242 50  0000 R CNN
+F 2 "" H 3625 7370 50  0001 C CNN
+F 3 "" H 3625 7370 50  0001 C CNN
+	1    3625 7370
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 60453005
+P 3625 7270
+F 0 "#PWR0109" H 3625 7120 50  0001 C CNN
+F 1 "+3.3V" V 3640 7398 50  0000 L CNN
+F 2 "" H 3625 7270 50  0001 C CNN
+F 3 "" H 3625 7270 50  0001 C CNN
+	1    3625 7270
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 60455076
+P 6825 5825
+F 0 "#PWR0110" H 6825 5575 50  0001 C CNN
+F 1 "GND" V 6830 5697 50  0000 R CNN
+F 2 "" H 6825 5825 50  0001 C CNN
+F 3 "" H 6825 5825 50  0001 C CNN
+	1    6825 5825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 60457E85
+P 7425 5925
+F 0 "#PWR0111" H 7425 5675 50  0001 C CNN
+F 1 "GND" V 7430 5797 50  0000 R CNN
+F 2 "" H 7425 5925 50  0001 C CNN
+F 3 "" H 7425 5925 50  0001 C CNN
+	1    7425 5925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 60485C88
+P 9450 5925
+F 0 "#PWR0112" H 9450 5675 50  0001 C CNN
+F 1 "GND" V 9455 5797 50  0000 R CNN
+F 2 "" H 9450 5925 50  0001 C CNN
+F 3 "" H 9450 5925 50  0001 C CNN
+	1    9450 5925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 604B654D
+P 9450 5825
+F 0 "#PWR0113" H 9450 5675 50  0001 C CNN
+F 1 "+3.3V" V 9465 5953 50  0000 L CNN
+F 2 "" H 9450 5825 50  0001 C CNN
+F 3 "" H 9450 5825 50  0001 C CNN
+	1    9450 5825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 604B97EF
+P 10925 4530
+F 0 "#PWR0114" H 10925 4380 50  0001 C CNN
+F 1 "+3.3V" H 10940 4703 50  0000 C CNN
+F 2 "" H 10925 4530 50  0001 C CNN
+F 3 "" H 10925 4530 50  0001 C CNN
+	1    10925 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 604FD60D
+P 10425 4530
+F 0 "#PWR0115" H 10425 4380 50  0001 C CNN
+F 1 "+3.3V" H 10440 4703 50  0000 C CNN
+F 2 "" H 10425 4530 50  0001 C CNN
+F 3 "" H 10425 4530 50  0001 C CNN
+	1    10425 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 60513963
+P 9925 2280
+F 0 "#PWR0116" H 9925 2130 50  0001 C CNN
+F 1 "+3.3V" H 9940 2453 50  0000 C CNN
+F 2 "" H 9925 2280 50  0001 C CNN
+F 3 "" H 9925 2280 50  0001 C CNN
+	1    9925 2280
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 605178F0
+P 9425 4530
+F 0 "#PWR0117" H 9425 4380 50  0001 C CNN
+F 1 "+3.3V" H 9440 4703 50  0000 C CNN
+F 2 "" H 9425 4530 50  0001 C CNN
+F 3 "" H 9425 4530 50  0001 C CNN
+	1    9425 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0118
+U 1 1 60519C3B
+P 8925 4530
+F 0 "#PWR0118" H 8925 4380 50  0001 C CNN
+F 1 "+3.3V" H 8940 4703 50  0000 C CNN
+F 2 "" H 8925 4530 50  0001 C CNN
+F 3 "" H 8925 4530 50  0001 C CNN
+	1    8925 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 6051A208
+P 8425 4530
+F 0 "#PWR0119" H 8425 4380 50  0001 C CNN
+F 1 "+3.3V" H 8440 4703 50  0000 C CNN
+F 2 "" H 8425 4530 50  0001 C CNN
+F 3 "" H 8425 4530 50  0001 C CNN
+	1    8425 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 6051B0E2
+P 7925 4530
+F 0 "#PWR0120" H 7925 4380 50  0001 C CNN
+F 1 "+3.3V" H 7940 4703 50  0000 C CNN
+F 2 "" H 7925 4530 50  0001 C CNN
+F 3 "" H 7925 4530 50  0001 C CNN
+	1    7925 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0121
+U 1 1 6051B8BF
+P 7425 3780
+F 0 "#PWR0121" H 7425 3630 50  0001 C CNN
+F 1 "+3.3V" H 7440 3953 50  0000 C CNN
+F 2 "" H 7425 3780 50  0001 C CNN
+F 3 "" H 7425 3780 50  0001 C CNN
+	1    7425 3780
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0122
+U 1 1 6051DB45
+P 6925 3780
+F 0 "#PWR0122" H 6925 3630 50  0001 C CNN
+F 1 "+3.3V" H 6940 3953 50  0000 C CNN
+F 2 "" H 6925 3780 50  0001 C CNN
+F 3 "" H 6925 3780 50  0001 C CNN
+	1    6925 3780
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0123
+U 1 1 6051FC0D
+P 6425 4530
+F 0 "#PWR0123" H 6425 4380 50  0001 C CNN
+F 1 "+3.3V" H 6440 4703 50  0000 C CNN
+F 2 "" H 6425 4530 50  0001 C CNN
+F 3 "" H 6425 4530 50  0001 C CNN
+	1    6425 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0124
+U 1 1 60520E92
+P 5925 3780
+F 0 "#PWR0124" H 5925 3630 50  0001 C CNN
+F 1 "+3.3V" H 5940 3953 50  0000 C CNN
+F 2 "" H 5925 3780 50  0001 C CNN
+F 3 "" H 5925 3780 50  0001 C CNN
+	1    5925 3780
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0125
+U 1 1 60522545
+P 5425 3780
+F 0 "#PWR0125" H 5425 3630 50  0001 C CNN
+F 1 "+3.3V" H 5440 3953 50  0000 C CNN
+F 2 "" H 5425 3780 50  0001 C CNN
+F 3 "" H 5425 3780 50  0001 C CNN
+	1    5425 3780
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0126
+U 1 1 60522B1C
+P 4925 4530
+F 0 "#PWR0126" H 4925 4380 50  0001 C CNN
+F 1 "+3.3V" H 4940 4703 50  0000 C CNN
+F 2 "" H 4925 4530 50  0001 C CNN
+F 3 "" H 4925 4530 50  0001 C CNN
+	1    4925 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0127
+U 1 1 6052484A
+P 4425 4530
+F 0 "#PWR0127" H 4425 4380 50  0001 C CNN
+F 1 "+3.3V" H 4440 4703 50  0000 C CNN
+F 2 "" H 4425 4530 50  0001 C CNN
+F 3 "" H 4425 4530 50  0001 C CNN
+	1    4425 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0128
+U 1 1 60525093
+P 3925 4530
+F 0 "#PWR0128" H 3925 4380 50  0001 C CNN
+F 1 "+3.3V" H 3940 4703 50  0000 C CNN
+F 2 "" H 3925 4530 50  0001 C CNN
+F 3 "" H 3925 4530 50  0001 C CNN
+	1    3925 4530
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 6052DE21
+P 4430 5610
+F 0 "#PWR0129" H 4430 5360 50  0001 C CNN
+F 1 "GND" V 4435 5482 50  0000 R CNN
+F 2 "" H 4430 5610 50  0001 C CNN
+F 3 "" H 4430 5610 50  0001 C CNN
+	1    4430 5610
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
