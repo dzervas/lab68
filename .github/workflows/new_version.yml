@@ -26,13 +26,15 @@ jobs:
         run: echo ::set-env name=RELEASE_VERSION::${{ github.event.inputs.version }}
 
       # Pass ERC & DRC
-      - uses: nerdyscout/kicad-exports@v1.1
+      - name: Check schematic for errors
+        uses: nerdyscout/kicad-exports@v1.1
         with:
           cmd: erc
           dir: output
           board: lab68.kicad_pcb
           schematic: lab68.sch
-      - uses: nerdyscout/kicad-exports@v1.1
+      - name: Check board for errors
+        uses: nerdyscout/kicad-exports@v1.1
         with:
           cmd: drc
           dir: output
@@ -48,29 +50,28 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         uses: ad-m/github-push-action@master
         with:
+          tags: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: nerdyscout/kicad-exports@v1.1
+      # Generate release artifacts
+      - name: Generate schematic PDF & SVG
+        uses: nerdyscout/kicad-exports@v1.1
         with:
           cmd: schematic
           dir: output
           board: lab68.kicad_pcb
           schematic: lab68.sch
-      - uses: nerdyscout/kicad-exports@v1.1
+      - name: Generate board PDF & SVG
+        uses: nerdyscout/kicad-exports@v1.1
         with:
           cmd: kicad-board
           dir: output
           board: lab68.kicad_pcb
           schematic: lab68.sch
-      - uses: nerdyscout/kicad-exports@v1.1
+      - name: Generate gerbers, drills, etc.
+        uses: nerdyscout/kicad-exports@v1.1
         with:
           cmd: fabrication
-          dir: output
-          board: lab68.kicad_pcb
-          schematic: lab68.sch
-      - uses: nerdyscout/kicad-exports@v1.1
-        with:
-          cmd: bom
           dir: output
           board: lab68.kicad_pcb
           schematic: lab68.sch
