@@ -1,0 +1,86 @@
+name: Release
+
+# Either push a new tag in the form v1.2.3
+# or manually trigger the job with version 1.2.3 and a tag will be created
+on:
+  create:
+    tags:
+      - v*
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '"major", "minor", "patch" or "1.2.3" - leave empty for "patch"'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      # Sets RELEASE_VERSION to be refs/tags/v<version> -> <version>
+      - name: Set env (tag pushed)
+        if: github.event_name == 'create'
+        run: echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF#refs/tags/v})
+      - name: Set env (manually triggered)
+        if: github.event_name == 'workflow_dispatch'
+        run: echo ::set-env name=RELEASE_VERSION::${{ github.event.inputs.version }}
+
+      # Pass ERC & DRC
+      - uses: nerdyscout/kicad-exports@v1.1
+        with:
+          cmd: erc
+          dir: output
+          board: lab68.kicad_pcb
+          schematic: lab68.sch
+      - uses: nerdyscout/kicad-exports@v1.1
+        with:
+          cmd: drc
+          dir: output
+          board: lab68.kicad_pcb
+          schematic: lab68.sch
+
+      # TODO: Update the version number and push
+      # Create tag if necesary
+      - name: Tag release (manually triggered)
+        if: github.event_name == 'workflow_dispatch'
+        run: git tag v${{ github.event.inputs.version }}
+      - name: Push changes (manually triggered)
+        if: github.event_name == 'workflow_dispatch'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: nerdyscout/kicad-exports@v1.1
+        with:
+          cmd: schematic
+          dir: output
+          board: lab68.kicad_pcb
+          schematic: lab68.sch
+      - uses: nerdyscout/kicad-exports@v1.1
+        with:
+          cmd: kicad-board
+          dir: output
+          board: lab68.kicad_pcb
+          schematic: lab68.sch
+      - uses: nerdyscout/kicad-exports@v1.1
+        with:
+          cmd: fabrication
+          dir: output
+          board: lab68.kicad_pcb
+          schematic: lab68.sch
+      - uses: nerdyscout/kicad-exports@v1.1
+        with:
+          cmd: bom
+          dir: output
+          board: lab68.kicad_pcb
+          schematic: lab68.sch
+
+      - name: Create Release
+        id: create_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: output/*
+          tag_name: v${{ env.RELEASE_VERSION }}
+          fail_on_unmatched_files: true
