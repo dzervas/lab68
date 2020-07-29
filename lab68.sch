@@ -1927,8 +1927,6 @@ Wire Wire Line
 Wire Wire Line
 	10975 2200 10975 2950
 Wire Wire Line
-	10475 2200 10475 2950
-Wire Wire Line
 	9475 2200 9475 2950
 Wire Wire Line
 	8475 1450 8475 2200
@@ -2276,8 +2274,6 @@ Connection ~ 10425 2250
 Wire Wire Line
 	10425 2250 10425 3000
 Connection ~ 10425 3000
-Wire Wire Line
-	10425 3000 10425 3750
 Connection ~ 10425 3750
 Wire Wire Line
 	10425 3750 10425 4500
@@ -2450,8 +2446,6 @@ Connection ~ 8825 3100
 Wire Wire Line
 	8825 3100 9325 3100
 Connection ~ 9325 3100
-Wire Wire Line
-	9325 3100 10325 3100
 Connection ~ 10325 3100
 Wire Wire Line
 	10325 3100 10825 3100
@@ -2909,4 +2903,10 @@ Text GLabel 3625 7270 0    50   Input ~ 0
 SCL
 Text GLabel 3625 7370 0    50   Input ~ 0
 SDA
+Wire Wire Line
+	10475 2200 10475 2950
+Wire Wire Line
+	10425 3000 10425 3750
+Wire Wire Line
+	9325 3100 10325 3100
 $EndSCHEMATC
