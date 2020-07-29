@@ -38,7 +38,10 @@ jobs:
       - name: Bump version on the silkscreen
         if: github.event_name == 'workflow_dispatch'
         run: |
-          sed -Ei "s/lab68 v[0-9]+\.[0-9]+ by dzervas/lab68 v${{ env.RELEASE_VERSION }} by dzervas/" lab68.kicad_pcb
+          sed -Ei "s/lab68 v[0-9]+\.[0-9]+ by dzervas/lab68 v${{ env.RELEASE_VERSION }} by dzervas/" lab68.kicad_pcb || exit 1
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git diff
           git add lab68.kicad_pcb
           git commit -m "Bump board version to ${{ env.RELEASE_VERSION }}"
 
@@ -64,11 +67,10 @@ jobs:
       - name: Generate board PDF
         uses: nerdyscout/kicad-exports@v1.1
         with:
-          cmd: pcbnew_do export lab68.kicad_pcb output Dwgs.User Cmts.User Eco1.User Eco2.User F.Fab F.CrtYd B.Fab B.CrtYd
+          cmd: kicad-board
           dir: output
           board: lab68.kicad_pcb
           schematic: lab68.sch
-      - run: mv -f output/printed.pdf output/lab68_Board.pdf
       - name: Generate gerbers, drills, etc.
         uses: nerdyscout/kicad-exports@v1.1
         with:
