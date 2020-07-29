@@ -34,7 +34,14 @@ jobs:
           board: lab68.kicad_pcb
           schematic: lab68.sch
 
-      # TODO: Update the version number and push
+      # Bump version
+      - name: Bump version on the silkscreen
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          sed -Ei "s/lab68 v[0-9]+\.[0-9]+ by dzervas/lab68 v${{ env.RELEASE_VERSION }} by dzervas/" lab68.kicad_pcb
+          git add lab68.kicad_pcb
+          git commit -m "Bump board version to ${{ env.RELEASE_VERSION }}"
+
       # Create tag if necesary
       - name: Tag release (manually triggered)
         if: github.event_name == 'workflow_dispatch'
