@@ -6767,7 +6767,7 @@
   (gr_line (start 327.025 34.13125) (end 328.294854 34.13125) (layer Edge.Cuts) (width 0.1) (tstamp 5F230C4D))
   (gr_line (start 328.294854 34.13125) (end 339.564795 34.13125) (layer Edge.Cuts) (width 0.1) (tstamp 5F21C001))
   (gr_curve (pts (xy 17.89176 34.13125) (xy 16.923568 34.13125) (xy 16.143555 34.911172) (xy 16.143547 35.87843)) (layer Edge.Cuts) (width 0.1) (tstamp 5F1F8F80))
-  (gr_text "lab68 v1.0 by dzervas" (at 110.33125 121.9905) (layer F.SilkS) (tstamp 5F21A39B)
+  (gr_text "lab68 v1.1 by dzervas" (at 110.33125 121.9905) (layer F.SilkS) (tstamp 5F21A39B)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_curve (pts (xy 339.564795 133.510197) (xy 340.533011 133.510197) (xy 341.3125 132.730708) (xy 341.3125 131.7625)) (layer Edge.Cuts) (width 0.1))
