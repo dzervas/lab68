@@ -47,17 +47,6 @@ F 3 "~" H 7125 6085 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SP U2
-U 1 1 5E0C39FD
-P 1425 6350
-F 0 "U2" H 1425 7531 50  0000 R CNN
-F 1 "MCP23017_SP" H 1425 7440 50  0000 R CNN
-F 2 "Package_DIP:DIP-28_W7.62mm_Socket_LongPads" H 1425 6350 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 1425 6350 50  0001 C CNN
-	1    1425 6350
-	1    0    0    -1  
-$EndComp
-$Comp
 L lab68:SSD1306_I2C U3
 U 1 1 5E0CF7E7
 P 9900 5725
@@ -2572,9 +2561,6 @@ NoConn ~ 1200 2005
 NoConn ~ 1200 1905
 NoConn ~ 725  6150
 NoConn ~ 725  6250
-NoConn ~ 725  6950
-NoConn ~ 725  7050
-NoConn ~ 725  7150
 Text GLabel 2350 2205 2    50   Input ~ 0
 LEDCTL
 NoConn ~ 2125 6450
@@ -2909,4 +2895,26 @@ Wire Wire Line
 	10425 3000 10425 3750
 Wire Wire Line
 	9325 3100 10325 3100
+$Comp
+L Interface_Expansion:MCP23017_SP U2
+U 1 1 5E0C39FD
+P 1425 6350
+F 0 "U2" H 1425 7531 50  0000 R CNN
+F 1 "MCP23017_SP" H 1425 7440 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm_Socket_LongPads" H 1425 6350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 1425 6350 50  0001 C CNN
+	1    1425 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	725  6950 725  7050
+Connection ~ 725  7050
+Wire Wire Line
+	725  7050 725  7150
+Wire Wire Line
+	1425 7450 725  7450
+Wire Wire Line
+	725  7450 725  7150
+Connection ~ 725  7150
+Connection ~ 1425 7450
 $EndSCHEMATC
