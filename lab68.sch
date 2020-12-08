@@ -1810,9 +1810,9 @@ Text GLabel 2350 2805 2    50   Input ~ 0
 ROW5
 NoConn ~ 1200 1705
 NoConn ~ 1200 1505
-Text GLabel 2350 2905 2    50   Input ~ 0
+Text GLabel 2845 2905 2    50   Input ~ 0
 SCL
-Text GLabel 2350 3005 2    50   Input ~ 0
+Text GLabel 2845 3005 2    50   Input ~ 0
 SDA
 Text GLabel 2350 2005 2    50   Input ~ 0
 En
@@ -2557,10 +2557,6 @@ Wire Wire Line
 NoConn ~ 1200 2805
 NoConn ~ 1200 2905
 NoConn ~ 1200 2105
-NoConn ~ 1200 2005
-NoConn ~ 1200 1905
-NoConn ~ 725  6150
-NoConn ~ 725  6250
 Text GLabel 2350 2205 2    50   Input ~ 0
 LEDCTL
 NoConn ~ 2125 6450
@@ -2885,10 +2881,6 @@ F 3 "" H 3625 7070 50  0001 C CNN
 	1    3625 7070
 	0    1    1    0   
 $EndComp
-Text GLabel 3625 7270 0    50   Input ~ 0
-SCL
-Text GLabel 3625 7370 0    50   Input ~ 0
-SDA
 Wire Wire Line
 	10475 2200 10475 2950
 Wire Wire Line
@@ -2917,4 +2909,70 @@ Wire Wire Line
 	725  7450 725  7150
 Connection ~ 725  7150
 Connection ~ 1425 7450
+Text GLabel 3625 7370 0    50   Input ~ 0
+SDA
+Text GLabel 3625 7270 0    50   Input ~ 0
+SCL
+$Comp
+L Device:R_Small R2
+U 1 1 5FE0A901
+P 2760 2805
+F 0 "R2" H 2819 2851 50  0000 L CNN
+F 1 "4.7KΩ" H 2819 2760 50  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2760 2805 50  0001 C CNN
+F 3 "~" H 2760 2805 50  0001 C CNN
+	1    2760 2805
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5FEB93FE
+P 2765 3105
+F 0 "R3" H 2824 3151 50  0000 L TNN
+F 1 "4.7KΩ" H 2824 3060 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2765 3105 50  0001 C CNN
+F 3 "~" H 2765 3105 50  0001 C CNN
+	1    2765 3105
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2905 2760 2905
+Wire Wire Line
+	2845 2905 2760 2905
+Connection ~ 2760 2905
+Wire Wire Line
+	2350 3005 2765 3005
+Wire Wire Line
+	2765 3005 2845 3005
+Connection ~ 2765 3005
+$Comp
+L power:+3.3V #PWR0130
+U 1 1 5FFA0A16
+P 2760 2705
+F 0 "#PWR0130" H 2760 2555 50  0001 C CNN
+F 1 "+3.3V" H 2775 2833 50  0000 L CNN
+F 2 "" H 2760 2705 50  0001 C CNN
+F 3 "" H 2760 2705 50  0001 C CNN
+	1    2760 2705
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0131
+U 1 1 5FFBE739
+P 2765 3205
+F 0 "#PWR0131" H 2765 3055 50  0001 C CNN
+F 1 "+3.3V" H 2780 3333 50  0000 L CNN
+F 2 "" H 2765 3205 50  0001 C CNN
+F 3 "" H 2765 3205 50  0001 C CNN
+	1    2765 3205
+	-1   0    0    1   
+$EndComp
+Text GLabel 725  6150 0    50   Input ~ 0
+INTA
+Text GLabel 725  6250 0    50   Input ~ 0
+INTB
+Text GLabel 1200 2005 0    50   Input ~ 0
+INTB
+Text GLabel 1200 1905 0    50   Input ~ 0
+INTA
 $EndSCHEMATC
