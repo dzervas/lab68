@@ -20,19 +20,19 @@ jobs:
       # Sets RELEASE_VERSION to be refs/tags/v<version> -> <version>
       - name: Set env (tag pushed)
         if: github.event_name == 'create'
-        run: echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF#refs/tags/v})
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
       - name: Set env (manually triggered)
         if: github.event_name == 'workflow_dispatch'
-        run: echo ::set-env name=RELEASE_VERSION::${{ github.event.inputs.version }}
+        run: echo "RELEASE_VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
 
       # Pass ERC & DRC
       - name: Check schematic & board for errors
-        uses: nerdyscout/kicad-exports@v1.1
+        uses: nerdyscout/kicad-exports@v2.2
         with:
-          cmd: report
+          config: kibot.yaml
           dir: output
           board: lab68.kicad_pcb
-          schematic: lab68.sch
+          schema: lab68.sch
 
       # Bump version
       - name: Bump version on the silkscreen
@@ -55,29 +55,6 @@ jobs:
         with:
           tags: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
-      # Generate release artifacts
-      - name: Generate schematic PDF & SVG
-        uses: nerdyscout/kicad-exports@v1.1
-        with:
-          cmd: schematic
-          dir: output
-          board: lab68.kicad_pcb
-          schematic: lab68.sch
-      - name: Generate board PDF
-        uses: nerdyscout/kicad-exports@v1.1
-        with:
-          cmd: kicad-board
-          dir: output
-          board: lab68.kicad_pcb
-          schematic: lab68.sch
-      - name: Generate gerbers, drills, etc.
-        uses: nerdyscout/kicad-exports@v1.1
-        with:
-          cmd: fabrication
-          dir: output
-          board: lab68.kicad_pcb
-          schematic: lab68.sch
 
       - name: Create Release
         id: create_release

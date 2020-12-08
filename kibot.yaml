@@ -1,0 +1,43 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
+outputs:
+  - name: Print Schematic
+    comment: Print Schematic (PDF)
+    type: pdf_sch_print
+
+  - name: Print Board
+    comment: Print Board (PDF)
+    type: pdf_pcb_print
+    layers:
+      - F.Cu
+      - B.Cu
+      - F.SilkS
+      - B.SilkS
+      - Dwgs.User
+      - Edge.Cuts
+      - F.Fab
+      - B.Fab
+
+  - name: STEP File
+    comment: Generate 3D STEP Model
+    type: step
+
+  - name: Gerbers
+    comment: Generate Gerbers
+    type: gerber
+    layers: all
+
+  - name: Drills
+    comment: Generate drill files
+    type: gerb_drill
+    options:
+      map:
+        output: ''
+        type: gerber
