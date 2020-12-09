@@ -25,16 +25,14 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         run: echo "RELEASE_VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
 
-      # Pass ERC & DRC
       - name: Check schematic & board for errors
         uses: nerdyscout/kicad-exports@v2.2
         with:
-          config: kibot.yaml
+          config: .github/kibot.check.yaml
           dir: output
           board: lab68.kicad_pcb
           schema: lab68.sch
 
-      # Bump version
       - name: Bump version on the silkscreen
         if: github.event_name == 'workflow_dispatch'
         run: |
@@ -43,18 +41,29 @@ jobs:
           git config user.name "GitHub Action"
           git diff
           git add lab68.kicad_pcb
-          git commit -m "Bump board version to ${{ env.RELEASE_VERSION }}"
+          git commit -m "Bump board version to ${{ env.RELEASE_VERSION }}" || exit 1
+          git tag v${{ github.event.inputs.version }}
 
-      # Create tag if necesary
-      - name: Tag release (manually triggered)
-        if: github.event_name == 'workflow_dispatch'
-        run: git tag v${{ github.event.inputs.version }}
       - name: Push changes (manually triggered)
         if: github.event_name == 'workflow_dispatch'
         uses: ad-m/github-push-action@master
         with:
           tags: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate board files
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: .github/kibot.yaml
+          dir: output
+          board: lab68.kicad_pcb
+          schema: lab68.sch
+
+      - name: Zip gerbers
+        run: |
+          cd output
+          sudo zip -r gerbers.zip gerbers || exit 1
+          sudo rm -rf gerbers
 
       - name: Create Release
         id: create_release

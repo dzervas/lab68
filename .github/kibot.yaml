@@ -15,15 +15,7 @@ outputs:
   - name: Print Board
     comment: Print Board (PDF)
     type: pdf_pcb_print
-    layers:
-      - F.Cu
-      - B.Cu
-      - F.SilkS
-      - B.SilkS
-      - Dwgs.User
-      - Edge.Cuts
-      - F.Fab
-      - B.Fab
+    layers: all
 
   - name: STEP File
     comment: Generate 3D STEP Model
@@ -32,11 +24,13 @@ outputs:
   - name: Gerbers
     comment: Generate Gerbers
     type: gerber
+    dir: gerbers
     layers: all
 
   - name: Drills
     comment: Generate drill files
     type: gerb_drill
+    dir: gerbers
     options:
       map:
         output: ''
