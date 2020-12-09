@@ -6857,7 +6857,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 341.3125 39.6875) (end 15.875 39.6875) (layer Dwgs.User) (width 0.12))
-  (gr_text "lab68 v1.1 by dzervas" (at 110.33125 121.9905) (layer F.SilkS) (tstamp 5F21A39B)
+  (gr_text "lab68 v by dzervas" (at 110.33125 121.9905) (layer F.SilkS) (tstamp 5F21A39B)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
