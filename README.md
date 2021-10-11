@@ -44,6 +44,10 @@ There were a few things that I'd like to change. I haven't done them yet, but th
  - Nick_68 and WoodKeys for each of their iterations on the Bluetooth + decoder design with the Ronin and Meira, which were invaluable for me while I was designing this board.
  - ai03 for the MX KiCad library I have in this project.
 
+OLED 3D Model: https://grabcad.com/library/oled-0-91-128x32-1
+Rotary Encoder 3D Model: https://grabcad.com/library/ec11-rotary-encoder-with-switch-1
+MX Switches & stabilizers 3D Models: https://github.com/perigoso/keyswitch-kicad-library
+
 # Images
 ![Full](IMG/full.jpg)
 ![OLED](IMG/oled.jpg)
