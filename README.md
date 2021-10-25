@@ -52,3 +52,10 @@ MX Switches & stabilizers 3D Models: https://github.com/perigoso/keyswitch-kicad
 ![Full](IMG/full.jpg)
 ![OLED](IMG/oled.jpg)
 ![Encoder](IMG/encoder.jpg)
+
+# Fusion 360 Prepare Board Model
+
+1. Export STEP with KicadStepUp (FreeCAD)
+2. Import it in an empty document
+3. Create a rigid group between all components
+4. Align the group to true origin (using 2 faces)
